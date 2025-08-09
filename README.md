@@ -1,24 +1,8 @@
-# 🦀 HyperToken - Solana Token Creation Platform
+HyperToken - Solana Token Creation Platform
 
-A modern, beautiful platform for creating and managing tokens on Solana blockchain. Built with Next.js, TypeScript, and Solana Web3.js.
+Platform for creating and managing tokens on Solana blockchain. Built with Next.js, TypeScript, and Solana Web3.js.
 
-![HyperToken](https://img.shields.io/badge/HyperToken-Solana%20Token%20Creator-blue?style=for-the-badge&logo=solana)
-![Next.js](https://img.shields.io/badge/Next.js-15.0.0-black?style=for-the-badge&logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
 
-## ✨ Features
-
-- 🎨 **Beautiful UI** - Modern design inspired by usefelix.xyz
-- ⚡ **Real-time Data** - Live market prices and blockchain data
-- 🔗 **Wallet Integration** - Support for Phantom, Solflare, and more
-- 🪙 **Token Creation** - Create SPL tokens on Solana
-- 📊 **Portfolio Tracking** - Real-time token balances and values
-- 🌐 **Live Markets** - Real-time price data from Jupiter API
-- 🚀 **Production Ready** - Deployed and optimized
-
-## 🚀 Quick Start
-
-### Prerequisites
 
 - Node.js 18+
 - Solana CLI
@@ -54,7 +38,7 @@ A modern, beautiful platform for creating and managing tokens on Solana blockcha
    - Connect your Solana wallet
    - Start creating tokens!
 
-## 🚀 Deployment
+Deployment
 
 ### Option 1: Deploy to Vercel (Recommended)
 
@@ -80,48 +64,7 @@ A modern, beautiful platform for creating and managing tokens on Solana blockcha
    NEXT_PUBLIC_PROGRAM_ID=YOUR_PROGRAM_ID
    NEXT_PUBLIC_SOLANA_RPC_URL=https://api.devnet.solana.com
    ```
-
-### Option 2: Deploy to Netlify
-
-1. **Build the project**
-   ```bash
-   npm run build
-   ```
-
-2. **Deploy to Netlify**
-   ```bash
-   netlify deploy --prod --dir=out
-   ```
-
-### Option 3: Deploy to Railway
-
-1. **Connect your GitHub repo to Railway**
-2. **Railway will auto-deploy on push**
-
-## 🎯 Features Overview
-
-### Real-Time Market Data
-- Live prices from Jupiter API
-- Real-time token balances
-- Market cap and volume tracking
-
-### Token Creation
-- Create SPL tokens on Solana
-- Customizable token parameters
-- Instant token deployment
-
-### Portfolio Management
-- Real token balances
-- Portfolio value tracking
-- Token transaction history
-
-### Modern UI/UX
-- Responsive design
-- Dark mode with gradients
-- Smooth animations
-- Mobile-friendly
-
-## 🛠 Tech Stack
+Stack
 
 ### Frontend
 - **Framework**: Next.js 15.0.0
@@ -163,7 +106,7 @@ hypertoken/
 └── README.md             # This file
 ```
 
-## 🔧 Configuration
+Configuration
 
 ### Environment Variables
 
@@ -184,7 +127,7 @@ The platform supports all SPL tokens on Solana, including:
 - Custom tokens created through the platform
 - Any SPL token with proper metadata
 
-## 🤝 Contributing
+Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -196,22 +139,3 @@ The platform supports all SPL tokens on Solana, including:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- [Solana](https://solana.com/) - For the amazing blockchain platform
-- [Next.js](https://nextjs.org/) - For the React framework
-- [Tailwind CSS](https://tailwindcss.com/) - For the styling framework
-- [Jupiter](https://jup.ag/) - For the price API
-- [Anchor](https://www.anchor-lang.com/) - For the Solana development framework
-
-## 🆘 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/yourusername/hypertoken/issues) page
-2. Create a new issue with detailed information
-3. Join our Discord community
-
----
-
-**Made with ❤️ for the Solana community**
