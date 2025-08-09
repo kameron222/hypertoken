@@ -1,0 +1,43 @@
+{
+  "name": "hypertoken-solana",
+  "version": "1.0.0",
+  "description": "A pump.fun clone for Solana - Create and trade tokens on Solana blockchain",
+  "main": "index.js",
+  "scripts": {
+    "build:program": "anchor build",
+    "deploy:local": "anchor deploy --provider.cluster localnet",
+    "deploy:devnet": "anchor deploy --provider.cluster devnet",
+    "deploy:mainnet": "anchor deploy --provider.cluster mainnet",
+    "test": "anchor test",
+    "test:local": "anchor test --provider.cluster localnet",
+    "clean": "anchor clean",
+    "verify": "anchor verify",
+    "idl": "anchor idl",
+    "migrate": "anchor migrate",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "start:frontend": "cd frontend && npm start"
+  },
+  "keywords": ["solana", "defi", "trading", "pump", "anchor", "spl-token"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@solana/web3.js": "^1.87.0",
+    "@types/bn.js": "^5.1.0",
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.0",
+    "mocha": "^9.0.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.3.9",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.34",
+    "@solana/wallet-adapter-wallets": "^0.19.23",
+    "dotenv": "^16.3.1"
+  }
+}

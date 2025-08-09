@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_PROGRAM_ID": "GhcYkFTMaRGPDbij2ok3fM33T4QhCYUWKNocWfVwZx4S",
+    "NEXT_PUBLIC_SOLANA_RPC_URL": "https://api.devnet.solana.com"
+  }
+}
